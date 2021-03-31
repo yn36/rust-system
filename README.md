@@ -3,7 +3,7 @@
 #### 介绍 
 [**YNOS**](http://47.112.235.80/) 后台管理-系统管理服务 正在开发当中, 当前版本只进行维护, 简介:
 
-* 前端使用 `vue.js` 前端开发框架以及`Ant Design Pro` 前端UI框架
+* 前端使用 `vue.js` 前端开发框架以及`AntD` 前端UI框架
 * 后端开发语言采用了追求高性能、安全的[`rust`]("https://www.rust-lang.org/zh-CN/")语言开发  使用了  [`Actix-Web`]("https://actix.rs/") web框架
 * 数据库采用了面向文档存储的`MongoDB`数据库
 
