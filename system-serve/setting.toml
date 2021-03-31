@@ -1,0 +1,23 @@
+[app]
+host = "0.0.0.0"
+# 后台服务端口
+port = 8080
+# 后台服务线程
+workers = 2
+# token 认证key
+secret_key = "ynos"
+
+# 数据库(MongoDB)
+[database]
+# 数据库地址
+host = "127.0.0.1"
+# 数据库用户
+user = "root"
+# 数据库登录密码
+password = "123456"
+# 数据库端口
+port = 27017
+
+# redis 缓存(v1.0版本未使用)
+[caches.redis]
+ip = ['redis://127.0.0.1:6379']

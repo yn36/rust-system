@@ -1,23 +1,38 @@
 # system
 
 #### 介绍
-系统管理
+[**YNOS**](http://47.112.235.80/) 后台管理-系统管理服务 正在开发当中, 当前版本只进行维护, 简介:
 
-#### 软件架构
-软件架构说明
+* 前端使用 `vue.js` 前端开发框架以及`Ant Design Pro` 前端UI框架
+* 后端开发语言采用了追求高性能、安全的[`rust`]("https://www.rust-lang.org/zh-CN/")语言开发  使用了  [`Actix-Web`]("https://actix.rs/") web框架
+* 数据库采用了面向文档存储的`MongoDB`数据库
 
+**敬请期待大家的参与。感谢大家支持！**
 
-#### 安装教程
+#### 功能特点
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+* [x] 菜单权限控制
+* [x] 用户管理
+* [x] 角色管理
+* [x] 产品管理
+* [ ] 按钮管理  -- 待更新
+* [x] 角色授权
+* [x] 用户授权
+* [ ] 手机号码登录  -- 待更新
+* [ ] 微信登录  -- 待更新
+* [x] 头像上传  -- 需要引入文档管理服务 
+* [x] 个性化设置 (主题修改)
+* [x] 机构管理
+* [x] 国际化 (CN.简体中文, US.English, HK.繁體中文 )
+
+#### 目录说明
+system-serve  后台服务
+system-vue    前端vue
+yn_util       YNOS 统一工具类
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. **需要二次开发者请详细阅读文档或代码** 或邮箱联系`15820330954@163.com`
+2. 详情可查看v1版本 [**YNOS**](http://47.112.235.80/) 账号`visitor` 密码 `123`
 
 #### 参与贡献
 
@@ -25,13 +40,3 @@
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
